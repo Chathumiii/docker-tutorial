@@ -6,6 +6,3 @@ COPY ./init.sql /tmp
 
 # Copy the SQL script to create the database and table into the container
 CMD [ "mysqld", "--init-file=/tmp/init.sql" ]
-
-
-
